@@ -1,0 +1,4 @@
+pydub==0.25.1
+requests==2.26.0
+SoundFile==0.10.3.post1
+tqdm==4.62.3

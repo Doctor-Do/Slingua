@@ -1,0 +1,9 @@
+*.log
+.vscode
+__pycache__/
+*.pyc
+*.ipynb
+wget-log*
+nohup.out
+data/
+.json
