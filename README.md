@@ -2,6 +2,7 @@
 ## Introduction
 We proposed a over 3200 hours dataset used for singing language identification, named Slingua.
 
+
 ## How to download Slingua:
 - Step1: Environment Setup
 
@@ -55,8 +56,21 @@ The json file can be downloaded from here:
 and
 [eval_metadata.json](https://drive.google.com/file/d/1MK-IebA8pD6ANxoVgAw7msHXpaSuerDD/view?usp=sharing).
 
+## Benchmark
+we explore two self-supervised learning (SSL) models,WavLM andWav2vec2, as the feature extractors for both SLID and universal singing speech language identification (ULID), compared with the traditional handcraft feature. Moreover, by trainingwith speech language corpus, we compare the performance difference of the universal singing speech language identification. The final results show that the SSL-based features exhibit more robust generalization, especially for lowresource and open-set scenarios. More details can be found in our paper:
+
+[Exploring Universal Singing Speech Language Identification Using Self-Supervised Learning Based Front-End Features](https://ieeexplore.ieee.org/document/10095116)
+```
+@INPROCEEDINGS{10095116,
+  author={Wang, Xingming and Wu, Hao and Ding, Chen and Huang, Chuanzeng and Li, Ming},
+  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Exploring Universal Singing Speech Language Identification Using Self-Supervised Learning Based Front-End Features}, 
+  year={2023},
+  doi={10.1109/ICASSP49357.2023.10095116}}
+```
+
 ## Note
-If you have any trouble about downloading the dataset, please feel free to contact me with `xingming.wang@dukekunshan.edu.cn`
+Due to the time sensitivity of videos on YouTube, you may encounter some downloading issues when using the Slingua corpus. According to our latest version, the current training set contains 39,482 auidios, and the evaluation set contains 5,442 chunks(Some videos are no longer available for download). This is relatively consistent with the corpus we used in our article. If you would like to obtain this version of the corpus or encounter any other difficulties during the download, please feel free to contact me with `xingming.wang@dukekunshan.edu.cn` or `realwxm@whu.edu.cn`
 
 
 
